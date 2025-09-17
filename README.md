@@ -1,6 +1,6 @@
 # AI Assistant Package
 
-A Laravel package that provides an AI-powered assistant widget for HashStudio applications.
+A Laravel package that provides an AI-powered assistant widget for laravel applications.
 
 ## Features
 
@@ -16,7 +16,7 @@ A Laravel package that provides an AI-powered assistant widget for HashStudio ap
 You can install the package via composer:
 
 ```bash
-composer require hashstudio/ai-assistant
+composer require level7up/ai-assistant
 ```
 
 ## Configuration

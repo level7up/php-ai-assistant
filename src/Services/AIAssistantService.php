@@ -1,6 +1,6 @@
 <?php
 
-namespace HashStudio\AIAssistant\Services;
+namespace Level7up\AIAssistant\Services;
 
 use Exception;
 use Illuminate\Support\Str;
