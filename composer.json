@@ -2,6 +2,7 @@
     "name": "level7up/ai-assistant",
     "description": "AI Assistant package for Laravel applications",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Level7up\\AIAssistant\\": "src/"
