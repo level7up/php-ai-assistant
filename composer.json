@@ -1,0 +1,28 @@
+{
+    "name": "level7up/ai-assistant",
+    "description": "AI Assistant package for Laravel applications",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Level7up\\AIAssistant\\": "src/"
+        },
+        "files": [
+            "src/Helpers/functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Level7up\\AIAssistant\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Level7up\\AIAssistant\\Providers\\AIAssistantServiceProvider"
+            ]
+        }
+    }
+}
