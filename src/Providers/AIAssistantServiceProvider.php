@@ -34,8 +34,6 @@ class AIAssistantServiceProvider extends ServiceProvider
 
     public function boot(): void
     {
-        parent::boot();
-
         // Register widget directive
         Blade::directive('aiAssistantWidget', function () {
             return "<?php echo app('\\Level7up\\AIAssistant\\Services\\AIAssistantWidgetService')->render(); ?>";
